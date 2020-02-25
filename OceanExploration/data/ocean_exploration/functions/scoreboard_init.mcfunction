@@ -1,0 +1,9 @@
+scoreboard objectives add OxygenTank dummy
+scoreboard objectives add OxygenDisplay dummy
+scoreboard objectives add OxygenDispScale dummy
+scoreboard objectives add WearingTank dummy
+scoreboard objectives add UseOxygen dummy
+scoreboard objectives add MaxOxygen dummy
+scoreboard objectives add Air air
+scoreboard objectives add HoldingGun dummy
+scoreboard objectives add NeedsTrident dummy

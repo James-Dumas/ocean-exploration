@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "12",
+        "21"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:sand"
+        },
+        "2": {
+            "item": "minecraft:dried_kelp_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge"
+    }
+}

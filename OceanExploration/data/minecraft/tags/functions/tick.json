@@ -1,0 +1,15 @@
+{
+    "values": [
+        "ocean_exploration:snorkel_recipe",
+        "ocean_exploration:tubing_recipe",
+        "ocean_exploration:scuba_mask_recipe",
+        "ocean_exploration:rebreather_recipe",
+        "ocean_exploration:rebreather_night_vision",
+        "ocean_exploration:wading_boots_recipe",
+        "ocean_exploration:flippers_recipe",
+        "ocean_exploration:tank_recipe",
+        "ocean_exploration:speargun_recipe",
+        "ocean_exploration:oxygen_tank",
+        "ocean_exploration:water_arrow"
+    ]
+}
