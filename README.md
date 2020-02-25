@@ -7,7 +7,7 @@ The Ocean Exploration data pack adds a multitude of new features to explore in t
 - More underwater structures, including new dungeons (Planned)
 - New loot tables for underwater structures (Planned)
 
-All the custom items plus some existing items have custom recipes, which can are listed [here](recipes.md).
+All the custom items plus some existing items have custom recipes, which are listed [here](recipes.md).
 
 ## Installation
 
