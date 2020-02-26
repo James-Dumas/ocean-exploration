@@ -1,1 +1,1 @@
-execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:iron_helmet",tag:{display:{Name:"\"Rebreather\""}}}]}] unless score @s Air matches 300 run effect give @s minecraft:night_vision 11 0 true
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:iron_helmet",tag:{display:{Name:'{"text":"Rebreather"}'}}}]}] unless score @s Air matches 300 run effect give @s minecraft:night_vision 11 0 true
