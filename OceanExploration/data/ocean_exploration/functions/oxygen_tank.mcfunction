@@ -2,10 +2,10 @@ execute as @a run scoreboard players set @s WearingTank 0
 execute as @a run scoreboard players set @s UseOxygen 0
 execute as @a run scoreboard players add @s OxygenTank 0
 execute as @a run scoreboard players set @s OxygenDispScale 20
-execute as @a[nbt={Inventory:[{Slot:9b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Oxygen Tank\""}}}]}] run scoreboard players set @s WearingTank 1
-execute as @a[nbt={Inventory:[{Slot:9b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Oxygen Tank\""}}}]}] run scoreboard players set @s MaxOxygen 2000
-execute as @a[nbt={Inventory:[{Slot:9b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Advanced Oxygen Tank\""}}}]}] run scoreboard players set @s WearingTank 1
-execute as @a[nbt={Inventory:[{Slot:9b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Advanced Oxygen Tank\""}}}]}] run scoreboard players set @s MaxOxygen 5000
+execute as @a[nbt={Inventory:[{Slot:17b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Oxygen Tank\""}}}]}] run scoreboard players set @s WearingTank 1
+execute as @a[nbt={Inventory:[{Slot:17b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Oxygen Tank\""}}}]}] run scoreboard players set @s MaxOxygen 2000
+execute as @a[nbt={Inventory:[{Slot:17b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Advanced Oxygen Tank\""}}}]}] run scoreboard players set @s WearingTank 1
+execute as @a[nbt={Inventory:[{Slot:17b,id:"minecraft:diamond_hoe",tag:{display:{Name:"\"Advanced Oxygen Tank\""}}}]}] run scoreboard players set @s MaxOxygen 5000
 execute as @a[nbt={Air:300s}] if score @s WearingTank matches 1 if score @s OxygenTank < @s MaxOxygen run scoreboard players add @s OxygenTank 30
 execute as @a if score @s WearingTank matches 1 if score @s OxygenTank > @s MaxOxygen run scoreboard players operation @s OxygenTank = @s MaxOxygen
 execute as @a[nbt=!{ActiveEffects:[{Id:29b}]},nbt={Inventory:[{Slot:103b,id:"minecraft:chainmail_helmet",tag:{display:{Name:"\"Scuba Mask\""}}}]}] unless score @s Air matches 300 if score @s WearingTank matches 1 unless score @s OxygenTank matches 0 run scoreboard players set @s UseOxygen 1
